@@ -26,8 +26,8 @@
           </h4>
         </div>
         <div id="action"><a type="a" class="btn btn-secondary btn-sm p-2">Reply<span><i
-                class="bi bi-arrow-90deg-left"></i></span></a>
-          <a type="a" class="btn btn-secondary btn-sm p-2">Forward<span><i class="bi bi-arrow-right"></i></span></a>
+                class="bi bi-arrow-90deg-left m-2"></i></span></a>
+          <a type="a" class="btn btn-secondary btn-sm p-2">Forward<span><i class="bi bi-arrow-right m-2"></i></span></a>
         </div>
         <hr>
         <p>Hello, I just wanted to let you know that I'll be home at lorem ipsum dolor sit amet, consectetur adipiscing
@@ -49,10 +49,10 @@
 
       </article>
 
-      <aside class="col-md-3">
+      <aside class="col-md-3 ">
         <h3>w3school <span>.com</span></h3>
         <!-- Button trigger modal -->
-         
+
         <div id="btn">
 
           <button type="button" class="btn btn-primary w-100 py-4" data-bs-toggle="modal"
@@ -86,6 +86,52 @@
             </div>
           </div>
         </div>
+        <!-- <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button id="inbox" class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <i class="bi bi-inbox-fill "></i> inbox (3)
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="pepole" class="accordion-body">
+                <div class="row">
+                  <div class="col-md-3 accordion-collapse collapse show"> <img src="image\avatar3.png" alt=""></div>
+                  <div class="col-md-9">
+                    <h5>Lorem ipsum</h5>
+                  </div>
+                  <p>Lorem ipsum dolor sit <br><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit.explicabo
+                    voluptate quaerat tenetur aperiam nam?</p>
+                  <hr>
+                  <div class="row">
+                    <div class="col-md-3 accordion-collapse collapse show"> <img src="image\avatar5.png" alt=""></div>
+                    <div class="col-md-9">
+                      <h5>Lorem ipsum</h5>
+                    </div>
+                    <p>Lorem ipsum dolor sit <br><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit.explicabo
+                      voluptate quaerat tenetur aperiam nam?</p>
+                    <hr>
+                    <div class="row">
+                      <div class="col-md-3 accordion-collapse collapse show"> <img src="image/avatar2.png" alt=""></div>
+                      <div class="col-md-9">
+                        <h5>Lorem ipsum</h5>
+                      </div>
+                      <p>Lorem ipsum dolor sit <br><br>Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit.explicabo voluptate quaerat tenetur aperiam nam?</p>
+
+
+
+                    </div>
+
+
+
+                  </div>
+                </div>
+              </div>
+
+            </div> -->
+
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header">
@@ -131,17 +177,60 @@
               </div>
 
             </div>
-            <section id="menu">
-              <div class="py-3 w-100 accordion-item"><a class="text-decoration-none" href="#"><i
-                    class="bi bi-send-fill"></i>Sent</a>
-
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i
+                    class="bi bi-send-fill"></i>
+                  sent
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
               </div>
-              <div class="py-3 w-100 "><a class="text-decoration-none" href="#"><i
-                    class="bi bi-hourglass-bottom"></i>Drafts</a></div>
-              <div class="py-3 w-100 "><a class="text-decoration-none" href="#"><i
-                    class="bi bi-trash3-fill"></i>Trash</a>
+            </div>
+           <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><i
+                class="bi bi-hourglass-bottom"></i>
+                Drafts
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
               </div>
-            </section>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><i class="bi bi-trash3-fill"></i>
+                Trash
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
 
     </section>
 
