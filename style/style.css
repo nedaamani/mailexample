@@ -19,6 +19,7 @@ main aside #btn > button {
   border: #333;
   border-radius: 0;
   text-align: left;
+  margin-left: 5px;
 }
 
 main aside #btn > button:hover {
@@ -54,7 +55,7 @@ main aside #menu div a {
 
 main #pepole div img {
   width: 50px;
-  border-radius: 5px;
+  border-radius: 30px;
 }
 
 main #pepole div h5 {
